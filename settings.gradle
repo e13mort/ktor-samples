@@ -58,7 +58,7 @@ module('other', 'reverse-proxy-ws')
 module('other', 'redirect-with-exception')
 module('other', 'sse')
 
-module('mpp', 'fullstack-mpp')
-module('mpp', 'client-mpp')
+//module('mpp', 'fullstack-mpp')
+//module('mpp', 'client-mpp')
 
 module('internal', 'gradle-maven-test')
