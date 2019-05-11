@@ -38,7 +38,7 @@ fun Application.main() {
                     p { +"Runtime.getRuntime().totalMemory(): ${runtime.totalMemory()}" }
                     p { +"Runtime.getRuntime().maxMemory(): ${runtime.maxMemory()}" }
                     p { +"System.getProperty(\"user.name\"): ${System.getProperty("user.name")}" }
-                    p { +"System.currentTimeMillis()${System.currentTimeMillis()}" }
+                    p { +"System.currentTimeMillis(): ${System.currentTimeMillis()}" }
                 }
             }
         }
